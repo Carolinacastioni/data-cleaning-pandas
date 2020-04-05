@@ -45,7 +45,7 @@ The majority of surfers that are attacked by sharks in Australia are deadly inju
 - Insert the column Nº of cases: 
   This way we can sum up the number of shark attack cases. 
    
-- Test the Group By function
+- Test the Group By function:
   In order to have a bigger picture of the Pivot table we are about to create.
   
 - First Filter:  
