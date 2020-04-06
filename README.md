@@ -26,16 +26,19 @@ The majority of surfers that are attacked by sharks in Australia are deadly inju
 - Third Action: Clean some columns
   Check duplicated columns and delete those columns that we won't need for the analysis.
   
-- Four Action: Clean by string matching
+- Four Action: Changing teh Index
+  Change the column "Case Number" to index.
+
+- Fifth Action: Clean by string matching
   Aggrouping the following columns into key words: Type, Activity, Sex, Fatal, Age, Country, Species.
   
-- Fifty Action: Categorization
+- Sixth Action: Categorization
   Create a called "Decada" that we can use on the analysis. We will build based on the column Year.
   
 - Last Clean Actions:
       Remove the columns we now know we won't need for the analysis, Drop "not available" rows in the column Country, Remove "NaN" from the column Decada, check again if we have duplicates now that we have modified the data. 
 
-- Export the clean database into a CSV file. First file had 25.723 X 24, clean file has 3.732 X 9.
+- Export the clean database into a CSV file. First file had 25.723 X 24, clean file has 2.517 X 9.
 
 
 ## Data Analysis
@@ -51,15 +54,15 @@ The majority of surfers that are attacked by sharks in Australia are deadly inju
 - First Filter:  
   The activity column should be filter only by Surfing.
   
-  Output:From 3732 shark attacks, 1354 were when people were Surfing. 
+  Output:From 2.517 shark attacks, 1.051 were when people were Surfing. 
   
 - Second Filter: 
   The country should be only Australia.
   
-  Output: From the 1354 shark attacks on Surfers, Australia has 259 cases of attack.
+  Output: From the 1.051 shark attacks on Surfers, Australia has 197 cases of attack.
   
 - Analysis: 
-  From the 259 shark attack, only 24 were fatal, which proves that our hypothesis are wrong.
+  From the 197 shark attackon surfers in Australia, only 24 were fatal, which proves that our hypothesis are wrong.
   
 
 ## Result
